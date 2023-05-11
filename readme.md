@@ -14,7 +14,7 @@
 ## 工夫した点
 
   - 前回作品したものから、対戦カードゲーム(HearhStoneなどなど)を参考に修正を加えました。
-   -  https://github.com/syuzo674/Janken
+    - https://github.com/syuzo674/Janken
   - 対戦感を出すためのレイアウト
   - 使用した手がちゃんとリアルタイムに減るようにした点
 

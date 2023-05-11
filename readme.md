@@ -3,7 +3,7 @@
 ## DEMO
 
   - 限定ジャンケン
-    - https://syuzo674.github.io/Janken/
+    - https://syuzo674.github.io/Janken_ver2/
 
 ## 紹介と使い方
 

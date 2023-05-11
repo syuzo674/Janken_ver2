@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>限定ジャンケン</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>限定ジャンケン</h1>
+
+    <div class="content">
+        <!-- CPU -->
+        <div class="CPU">
+            <div class="cpuHand">
+                <p>CPUの手札: </p>
+                <div id="cpuHand"></div>
+            </div>
+            <div class="cpuStars">
+                <div id="cpuStars"></div>
+            </div>
+        </div>
+
+        <!-- 結果表示 -->
+        <div class="result">
+            <p id="result"></p>
+            <p id="gameResult"></p>
+        </div>
+
+        <!-- player -->
+        <div class="player">
+            <div class="playerStars">
+                <div id="playerStars"></div>
+            </div>
+            <div class="playerHand">
+                <p>出したい手の画像をクリック！</p>
+                <div id="playerHand"></div>
+
+            </div>
+        </div>
+
+        <script src="game.js">
+            init();
+
+        </script>
+    </div>
+
+</body>
+
+</html>

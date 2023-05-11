@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    background-color: mediumseagreen;
+    border: 1px solid black;
+}
+
+.result {
+    padding: 10px;
+    font-size: 22px;
+    color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cpuHand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cpuStars {
+    display: flex;
+    justify-content: left;
+}
+
+
+.playerHand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.playerStars {
+    display: flex;
+    justify-content: right;
+}
